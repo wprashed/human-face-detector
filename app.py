@@ -36,7 +36,7 @@ def delete_images_with_humans(directory):
                 print(f"Image {filename} does not contain a human.")
 
 # Set the directory containing your images
-image_directory = 'path_to_your_images'
+image_directory = 'images'
 
 # Run the function to delete images with humans
 delete_images_with_humans(image_directory)
